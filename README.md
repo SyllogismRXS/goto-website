@@ -11,7 +11,7 @@ Create gh-pages branch that is orphaned
     $ git checkout --orphan gh-pages
     $ git reset --hard
     $ git commit --allow-empty -m "Init"
-    $ git checkout master
+    $ git checkout main
 
 Setup _site as a git worktree of the gh-pages branch
 
